@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magic 8 ball</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=MW.100JSProjects">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<div class="MagicBall-container">
+  <div class="animation">
+    <img src="Disk-1.7s-200px.svg" alt="">
+  </div>
+  <form action="" onsubmit="MagicBall(); return false;">
+    <h3>What is your Name?</h3>
+      <input type="text" id="Name">
+    <h3>What is your question today?</h3> 
+      <input type="text" id="Question" >
+  </form>
+  <button type="button" onclick=" MagicBall()"> Magic 8 Ball</button>
+    <div class="output">
+    <h3 id="output1"></h3>
+    <h3 id="output2"></h3>
+  </div>
+</div>
+  
+
+  <!-- script -->
+ <script src="script.js"></script>   
+</body>
+</html>

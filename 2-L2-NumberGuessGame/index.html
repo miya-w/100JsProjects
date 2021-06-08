@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+     
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=MW.100JSProjects">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  
+
+</head> 
+<body onload="newGame()">
+
+  <div class="guessGame-container">
+    <i class="fas fa-cat"></i>   
+    <h1>Number Guess Game</h1>
+    <h2>Enter a number between 1 and 100</h2>
+    <form action="" onsubmit="checkGuess(); return false;">
+      <input type="text" id="guess" size="6">
+    </form>
+    <button type="button" onclick="checkGuess()"> Start Game</button>
+    <div class="output">
+      <h3 id="output">Guess the number and press the button</h3>
+    </div>
+    
+  </div>
+  
+
+  
+  
+
+  <!-- script -->
+ <script src="script.js"></script>   
+</body>
+</html>
