@@ -5,6 +5,6 @@
 - 2-L2-NumberGuessGame https://miya-w.github.io/100JsProjects/2-L2-NumberGuessGame/
 - 3-L2-Magic8Ball https://miya-w.github.io/100JsProjects/3-L2-Magic8Ball/
 - 4-L2-SavingCalculator https://miya-w.github.io/100JsProjects/4-L2-SavingCalculator/
-- 5-l1-DigitalClockAndDate https://miya-w.github.io/100JsProjects/5-l1-DigitalClockAndDate/
+- 5-l1-DigitalClockAndDate https://miya-w.github.io/100JsProjects/5-L1-DigitalClockAndDate/
 
 
