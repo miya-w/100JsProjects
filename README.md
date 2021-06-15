@@ -7,5 +7,6 @@
 - 4-L2-SavingCalculator https://miya-w.github.io/100JsProjects/4-L2-SavingCalculator/
 - 5-L1-DigitalClockAndDate https://miya-w.github.io/100JsProjects/5-L1-DigitalClockAndDate/
 - 6-L2-heightConverter  https://miya-w.github.io/100JsProjects/6-L2-heightConverter/
+- 7-L2-DrawBubbles  https://miya-w.github.io/100JsProjects/7-L2-DrawBubbles/
 
 
