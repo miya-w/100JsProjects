@@ -9,6 +9,7 @@
 - 6-L2-heightConverter  https://miya-w.github.io/100JsProjects/6-L2-heightConverter/
 - 7-L2-DrawBubbles  https://miya-w.github.io/100JsProjects/7-L2-DrawBubbles/
 - 8-L2-MyProductivePage  https://miya-w.github.io/100JsProjects/8-L2-MyProductivePage/
+- 9-L2-SavingCalculatorBarChart https://miya-w.github.io/100JsProjects/9-L2-SavingCalculatorBarChart/
 
 
 

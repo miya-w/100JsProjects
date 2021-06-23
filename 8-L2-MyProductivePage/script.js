@@ -26,6 +26,7 @@ var months = ["January","February", "March", "April", "May",
 
             if( hour > 17){
                 greet.innerHTML =  'Good Evening!';
+               
                 
             }else if(hour > 12){
                 greet.innerHTML =  'Good Afternoon!';
@@ -112,3 +113,7 @@ function newElement() {
     }
   }
 }
+
+
+//timer
+

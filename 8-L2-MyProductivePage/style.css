@@ -15,10 +15,8 @@ body{
     color: black;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;    
+    position: relative;
+   
 }
 
 
@@ -28,9 +26,32 @@ body{
     max-width: 900px;
     padding: 20px 30px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;  
+    flex-direction: column ; 
     /* background-color: rgba(255, 255, 255,0.4);
     box-shadow: 0 10px 10px 10px rgba(0,0,0, 0.2); */
 }
+
+.container-time{
+  position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    width: auto;
+    height: 50%;
+}
+
+
+.container-timer{
+  position: absolute;
+  bottom:0;
+}
+
 
 #time{
     font-size: 6rem;
@@ -47,6 +68,20 @@ h2{
 
 /* ToDoList */
 
+.container-focus{
+  width: 50%;
+  height: 50%;
+}
+
+#myDIV{
+  width: 100%;
+  height: 50%;
+}
+
+#myUL{
+  width: 80%;
+}
+
 /* Remove margins and padding from the list */
 ul {
     margin: 0;
@@ -61,12 +96,15 @@ ul {
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
+    width: 100%;
   
     /* make the list items unselectable */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+
   }
   
   /* Set all odd list items to a different color (zebra-stripes) */
@@ -84,6 +122,8 @@ ul {
     background: #888;
     color: #fff;
     text-decoration: line-through;
+    width: 100%;
+    text-align: center;
   }
   
   /* Add a "checked" mark when clicked on */
@@ -109,13 +149,13 @@ ul {
   }
   
   .close:hover {
-    background-color:;
+    /* background-color:; */
     color: white;
   }
   
   /* Style the header */
   .header {
-    background-color: ;
+    /* background-color: ; */
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -140,7 +180,7 @@ ul {
   }
   
   /* Style the "Add" button */
-  .addBtn {
+  #addBtn {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
@@ -150,7 +190,7 @@ ul {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 20;
   }
   
   .addBtn:hover {
@@ -159,6 +199,5 @@ ul {
 
 
 
-@media(max-width: 700px){
 
-}
+

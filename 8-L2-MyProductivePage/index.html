@@ -7,29 +7,100 @@
     <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=MW.100JSProjects">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="alarm.css">
 </head>
 <body>
-<div class="container">
+  <div class="wrap">
+<!-- <div class="container01"> -->
+<div class="container container-time">
   <h1><date id="dtField"></date></h1>
   <h1><time id="time">12:00 PM</time></h1>
+  <div class="weather">
+    <div class="app-title">
+          <div class="notification">
+              <div class="weather-icon"><img src="svg/clear.svg" alt=""></div>
+              <div class="temperature-value"><p>- <span>C</span></p></div>
+              <div class="temperature-description"><p>-</p></div>
+              <div class="location"><p>-</p></div>
+          </div>
+  </div>
+  </div>
+<!-- </div> -->
+<!-- </div> -->
   <h1>
     <span id="greeting">Good Afternoon,</span>
-    <span id="name" contenteditable="true">Mia</span>
+    <span id="name" contenteditable="true"></span>
   </h1>
-   <div id="myDIV" class="header">
-      <h2>What is your focus today?</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <button onclick="newElement()" class="addBtn">Add</button>
+  <div class="container container-focus">
+    <div id="myDIV" class="header">
+       <h2>What is your focus today?</h2>
+       <input type="text" id="myInput" placeholder="Title...">
+       <button onclick="newElement()" id="addBtn">Add</button>
+     </div>
+   
+     <ul id="myUL">
+      <li class="checked">For example</li>
+     </ul>
+ </div>
+</div>
+<div class="container container-timer">
+  <div id = "caixaPrincipal">
+    <div class = "blocoSuperior fundoCinza">
+        <div id = "tagPararAlarme" class = "eleDesativado">X</div>
+        <span id = "tagTxtPararAlarme">Parar Alarme</span>
+    </div>
+
+    <div class = "blocoPadrao">
+        <label class = "fundoCinza2"><input type = "radio" name = "opcTmp" value = "1"  /><span id = "tagTxtAlarme">Alarme</span></label>
+        <label class = "fundoCinza2"><input type = "radio" name = "opcTmp" value = "0"  /><span id = "tagTxtTimer">Timer</span></label>    
     </div>
   
-    <ul id="myUL">
-      <li class="checked">For example</li>
-    </ul>
+
+<div id = "dvTagsTempo" class = "blocoPadrao">
+<fieldset>
+    <legend>Horas</legend>    
+    <input id = "tagTmpHor" class = "styleImputTmp" type = "number" min = "0" value = "0" />
+</fieldset>
+
+<fieldset>
+    <legend>Minutos</legend>    
+    <input id = "tagTmpMin" class = "styleImputTmp" type = "number" min = "0" value = "0" max = "59" />
+</fieldset>
+
+<fieldset>
+    <legend>Segundos</legend>   
+    <input id = "tagTmpSeg" class = "styleImputTmp" type = "number" min = "0" value = "0" min = 0 max = "59" />
+</fieldset>
+</div>
+
+
+<div id = "CaixaCronometro">
+<div class = "blocoPadrao">   
+    <span id = "tagTmpAtual">00:00:00</span>  
+</div>
+
+<div class = "blocoPadrao" >
+<button class = "btCrono" id = "tagBtIniciaCrono">Iniciar</button>
+<button class = "btCrono ghost" id = "tagBtParaCrono">Parar</button>
+<button class = "btCrono" id = "tagBtCancelaCrono">Cancelar</button>
+</div>
+
+</div>
+
+<audio id = "tagAlarme" src = "_media_alarme.mp3" loop = "true"></audio>
+
+</div>
+
 </div>
 </div>
+
+
+
   
 
   <!-- script -->
- <script src="script.js"></script>   
+ <script src="script.js"></script> 
+ <script src="alarm.js"></script>
+<script src="weather.js"></script>
 </body>
 </html>
