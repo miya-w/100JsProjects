@@ -10,7 +10,8 @@
 - 7-L2-DrawBubbles  https://miya-w.github.io/100JsProjects/7-L2-DrawBubbles/
 - 8-L2-MyProductivePage  https://miya-w.github.io/100JsProjects/8-L2-MyProductivePage/
 - 9-L2-SavingCalculatorBarChart https://miya-w.github.io/100JsProjects/9-L2-SavingCalculatorBarChart/
-- 10-L3-unsplashLoad https://miya-w.github.io/100JsProjects/10-L3-unsplashLoad 
+- 10-L3-unsplashLoad https://miya-w.github.io/100JsProjects/10-L3-unsplashLoad/ 
+- 10-L3-unsplashLoad https://miya-w.github.io/100JsProjects/11-L2-passwordGenerator/
 
 
 

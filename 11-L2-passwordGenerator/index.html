@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=MW.100JSProjects">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="inputBox">
+      <h2>Password Generator</h2>
+      <form name="randform">
+       <input class="randstrings" id="randstrings" type="text" placeholder="Create Password" name="randomfield" value="" onclick="this.select();">
+       <input class="reload" type="button" onClick="getPassword();" autofocus value="GENERATE"></form>
+       
+       
+      <button onclick="copyText()">Copy</button>
+    </div>
+   
+
+  </div>
+  
+  
+
+  <!-- script -->
+ <script src="script.js"></script>   
+</body>
+</html>
