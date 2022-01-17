@@ -14,4 +14,5 @@
 - 11-L2-passwordGenerator https://miya-w.github.io/100JsProjects/11-L2-passwordGenerator/
 - 12-L3-joke-teller https://miya-w.github.io/100JsProjects/12-L3-joke-teller/
 - 13-L2-calculator https://miya-w.github.io/100JsProjects/13-L2-Calculator/
+- 14-L2-NoughtsAndCrosses https://miya-w.github.io/100JsProjects/14-L2-NoughtsAndCrosses/
 
