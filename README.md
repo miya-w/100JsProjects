@@ -15,4 +15,7 @@
 - 12-L3-joke-teller https://miya-w.github.io/100JsProjects/12-L3-joke-teller/
 - 13-L2-calculator https://miya-w.github.io/100JsProjects/13-L2-Calculator/
 - 14-L2-NoughtsAndCrosses https://miya-w.github.io/100JsProjects/14-L2-NoughtsAndCrosses/
+- 15-L2-Random Hex Color Gen https://miya-w.github.io/100JsProjects/15-L2-Random-Hex-Color/
+- 16-L2-ClickToCopy https://miya-w.github.io/100JsProjects/16-L2-ClickToCopy/
+
 
