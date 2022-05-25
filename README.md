@@ -1,6 +1,5 @@
 # 100JsProjects
 - JavaScript Cheat Sheet https://github.com/miya-w/100JsProjects/tree/main/JavaScript-cheatSheet
-
 - 100JSProjectsTEMPLATE https://github.com/miya-w/100JsProjects/tree/main/100JSProjectsTEMPLATE
 - 01-L3-QuoteGenerator https://miya-w.github.io/100JsProjects/01-L3-QuoteGenerator/
 - 02-L2-NumberGuessGame https://miya-w.github.io/100JsProjects/02-L2-NumberGuessGame/
@@ -18,5 +17,6 @@
 - 14-L2-NoughtsAndCrosses https://miya-w.github.io/100JsProjects/14-L2-NoughtsAndCrosses/
 - 15-L2-Random Hex Color Gen https://miya-w.github.io/100JsProjects/15-L2-Random-Hex-Color/
 - 16-L2-ClickToCopy https://miya-w.github.io/100JsProjects/16-L2-ClickToCopy/
+- 17-L2-ListSearch https://miya-w.github.io/100JsProjects/17-L2-ListSearch/
 
 
