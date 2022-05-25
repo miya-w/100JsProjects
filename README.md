@@ -1,4 +1,5 @@
 # 100JsProjects
+- JavaScript Cheat Sheet https://github.com/miya-w/100JsProjects/tree/main/JavaScript-cheatSheet
 
 - 100JSProjectsTEMPLATE https://github.com/miya-w/100JsProjects/tree/main/100JSProjectsTEMPLATE
 - 01-L3-QuoteGenerator https://miya-w.github.io/100JsProjects/01-L3-QuoteGenerator/
