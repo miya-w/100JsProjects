@@ -1,5 +1,6 @@
 # 100JsProjects
 - JavaScript Cheat Sheet https://github.com/miya-w/100JsProjects/tree/main/JavaScript-cheatSheet
+---
 - 100JSProjectsTEMPLATE https://github.com/miya-w/100JsProjects/tree/main/100JSProjectsTEMPLATE
 - 01-L3-QuoteGenerator https://miya-w.github.io/100JsProjects/01-L3-QuoteGenerator/
 - 02-L2-NumberGuessGame https://miya-w.github.io/100JsProjects/02-L2-NumberGuessGame/
@@ -19,5 +20,6 @@
 - 16-L2-ClickToCopy https://miya-w.github.io/100JsProjects/16-L2-ClickToCopy/
 - 17-L2-ListSearch https://miya-w.github.io/100JsProjects/17-L2-ListSearch/
 - 18-L2-TipCalculator https://miya-w.github.io/100JsProjects/18-L2-TipCalculator/
-
+- 19
+- 20
 
