@@ -18,5 +18,6 @@
 - 15-L2-Random Hex Color Gen https://miya-w.github.io/100JsProjects/15-L2-Random-Hex-Color/
 - 16-L2-ClickToCopy https://miya-w.github.io/100JsProjects/16-L2-ClickToCopy/
 - 17-L2-ListSearch https://miya-w.github.io/100JsProjects/17-L2-ListSearch/
+- 18-L2-TipCalculator https://miya-w.github.io/100JsProjects/18-L2-TipCalculator/
 
 
