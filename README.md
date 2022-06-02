@@ -26,6 +26,7 @@
 - 22-L2-BmiCalculator
 - 23-L2-TemperatureConverter
 - 24-L2-PassWordToggleVisibility 
+    ![P-24](https://github.com/miya-w/100JsProjects/blob/main/24-L2-PassWordToggleVisibility/images/p24-passWordToggleVisisbility.png)
 
 
  
