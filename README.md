@@ -20,7 +20,12 @@
 - 16-L2-ClickToCopy https://miya-w.github.io/100JsProjects/16-L2-ClickToCopy/
 - 17-L2-ListSearch https://miya-w.github.io/100JsProjects/17-L2-ListSearch/
 - 18-L2-TipCalculator https://miya-w.github.io/100JsProjects/18-L2-TipCalculator/
-- 19
-- 20
+- 19-L2-DateCountDown
+- 20-L2-TimeCountDown
+- 21-L2-RangeSlider
+- 22-L2-BmiCalculator
+- 23-L2-TemperatureConverter
+- 24-L2-PassWordToggleVisibility 
+
 
  
