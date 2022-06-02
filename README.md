@@ -23,10 +23,12 @@
 - 19-L2-DateCountDown
 - 20-L2-TimeCountDown
 - 21-L2-RangeSlider
-- 22-L2-BmiCalculator
 - 23-L2-TemperatureConverter
 - 24-L2-PassWordToggleVisibility 
     ![P-24](https://github.com/miya-w/100JsProjects/blob/main/24-L2-PassWordToggleVisibility/images/p24-passWordToggleVisisbility.png)
+- 25 25-L2-AgeCalCulator
+    ![p-25](https://github.com/miya-w/100JsProjects/blob/main/25-L2-AgeCalculator/images/25-AgeCalCulator.png)
+
 
 
  
