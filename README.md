@@ -20,13 +20,13 @@
 - 16-L2-ClickToCopy https://miya-w.github.io/100JsProjects/16-L2-ClickToCopy/
 - 17-L2-ListSearch https://miya-w.github.io/100JsProjects/17-L2-ListSearch/
 - 18-L2-TipCalculator https://miya-w.github.io/100JsProjects/18-L2-TipCalculator/
-- 19-L2-DateCountDown
-- 20-L2-TimeCountDown
-- 21-L2-RangeSlider
-- 23-L2-TemperatureConverter
-- 24-L2-PassWordToggleVisibility 
+- 19-L2-DateCountDown https://miya-w.github.io/100JsProjects/19-L2-DateCountDown/
+- 20-L2-TimeCountDown https://miya-w.github.io/100JsProjects/20-L2-TimeCountDown/
+- 21-L2-RangeSlider https://miya-w.github.io/100JsProjects/21-L2-RangeSlider/
+- 23-L2-TemperatureConverter https://miya-w.github.io/100JsProjects/23-L2-TemperatureConverter/
+- 24-L2-PassWordToggleVisibility https://miya-w.github.io/100JsProjects/24-L2-PassWordToggleVisibility/
     ![P-24](https://github.com/miya-w/100JsProjects/blob/main/24-L2-PassWordToggleVisibility/images/p24-passWordToggleVisisbility.png)
-- 25 25-L2-AgeCalCulator
+- 25-L2-AgeCalCulator https://miya-w.github.io/100JsProjects/25-L2-AgeCalCulator/
     ![p-25](https://github.com/miya-w/100JsProjects/blob/main/25-L2-AgeCalculator/images/25-AgeCalCulator.png)
 
 
