@@ -28,6 +28,7 @@
     ![P-24](https://github.com/miya-w/100JsProjects/blob/main/24-L2-PassWordToggleVisibility/images/p24-passWordToggleVisisbility.png)
 - 25-L2-AgeCalCulator https://miya-w.github.io/100JsProjects/25-L2-AgeCalCulator/
     ![p-25](https://github.com/miya-w/100JsProjects/blob/main/25-L2-AgeCalculator/images/25-AgeCalCulator.png)
+- 26-L2-CatFoodCalculator 
 
 
 

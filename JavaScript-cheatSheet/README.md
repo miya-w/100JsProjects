@@ -159,13 +159,15 @@ for (var prop in obj) {
 # Build In Objects
 ### Math
 ```Javascript
-math.random() //0.45
-math.round(123.45) //123
-math.floor(123.45) //123        
-math.ceil(123.45) //124
-math.min(7, 8, 6) //6
-math.max(7, 8 ,6) //8
-math.sqrt(16) //4
+Math.random() //0.45
+Math.round(123.45) //123
+Math.floor(123.45) //123        
+Math.ceil(123.45) //124
+Math.min(7, 8, 6) //6
+Math.max(7, 8 ,6) //8
+Math.sqrt(16) //4
+Math.pow(3,2) //9 3*3=9
+
 ```
 ### Date and Time
 ```javascript
