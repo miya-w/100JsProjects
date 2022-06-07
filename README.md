@@ -33,5 +33,6 @@
     ![p-26](https://github.com/miya-w/100JsProjects/blob/main/26-L2-CatFoodCalculator/images/22p-BMI.png)
 
 - 27-L2-Quiz
+- 28-L3-AjaxAndFetchAPI 
 
  
