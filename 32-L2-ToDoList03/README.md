@@ -1,6 +1,6 @@
 ## What I have learned?
 
-
+![todoList03](https://github.com/miya-w/100JsProjects/blob/main/32-L2-ToDoList03/image/p32-todoList.png)
 
 ### JavaScript Used
 -  inputField.value = "";

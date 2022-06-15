@@ -47,6 +47,11 @@ newParagraph.appendChild(pText);
 
 // elements are now created and ready to be added to the DOM.
 ```
+### Manipulate
+```javascript
+innerText
+innerHtml
+```
 
 #### Remove Node
 
