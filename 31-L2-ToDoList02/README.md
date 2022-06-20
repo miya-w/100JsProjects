@@ -1,4 +1,4 @@
-
+![todoList)2](https://github.com/miya-w/100JsProjects/blob/main/31-L2-ToDoList02/image/todoList02.png)
 ## What I have learned?
 - Unicode U+00D7
 [UniCode Chart](https://www.rapidtables.com/code/text/unicode-characters.html)
