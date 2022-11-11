@@ -1,7 +1,7 @@
 # 100JsProjects
 - JavaScript Cheat Sheet https://github.com/miya-w/100JsProjects/tree/main/JavaScript-cheatSheet
 - AjaxAndFetchAPI https://github.com/miya-w/100JsProjects/tree/main/28-L3-AjaxAndFetchAPI%20
-- LocalStaoage
+- LocalStaoage 
 ---
 - 100JSProjectsTEMPLATE https://github.com/miya-w/100JsProjects/tree/main/100JSProjectsTEMPLATE
 - 01-L3-QuoteGenerator https://miya-w.github.io/100JsProjects/01-L3-QuoteGenerator/
@@ -37,5 +37,15 @@
 - 27-L2-Quiz
 - 28-L3-AjaxAndFetchAPI 
     ![P-28](https://github.com/miya-w/100JsProjects/blob/main/28-L3-AjaxAndFetchAPI%20/image/p28AjexFetch.png)
+- 29
+- 30 
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37- LocalStorage
+
 
  
