@@ -36,5 +36,6 @@
 
 - 27-L2-Quiz
 - 28-L3-AjaxAndFetchAPI 
+    ![P-28](https://github.com/miya-w/100JsProjects/blob/main/28-L3-AjaxAndFetchAPI%20/image/p28AjexFetch.png)
 
  
