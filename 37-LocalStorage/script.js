@@ -10,13 +10,12 @@
 // key(): Passed a number to retrieve the key of a localStorage
 
 // window.localStorage.setItem("key", "value");
-
-window.localStorage.setItem("firstName", "Zino");
-localStorage.setItem("lastName", "Akpareva");
+window.localStorage.setItem("firstName", "David");
+localStorage.setItem("lastName", "Martinez");
 
 const person = {
-  fullName: "Akpareva Zino",
-  location: "Abuja",
+  fullName: "Lucyna Kushinada",
+  location: "Night City",
 };
 
 localStorage.setItem("user", JSON.stringify(person));
@@ -26,15 +25,15 @@ const fruits = ["Pineapple", "Mango", "Pawpaw"];
 localStorage.setItem("fruits", JSON.stringify(fruits));
 
 // GET ITEM FROM LOCAL STORAGE
-// console.log(localStorage.getItem("firstName"));
+console.log(localStorage.getItem("firstName"));
 
 // REMOVE ITEM FROM LOCAL STORAGE
-// localStorage.removeItem("fruits");
+localStorage.removeItem("fruits");
 
 // CLEAR LOCAL STORAGE
-// localStorage.clear();
+localStorage.clear();
 
-// localStorage.setItem("name", "Zino");
-// localStorage.setItem("age", "27");
+localStorage.setItem("name", "Lucy");
+localStorage.setItem("age", "20");
 
-// console.log(localStorage.key(0));
+console.log(localStorage.key(0));

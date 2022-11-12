@@ -14,3 +14,34 @@ The localStorage object allows you to save key/value pairs in the browser.
 - key(): Passed a number to retrieve the key of a localStorage
 
 - window.localStorage.setItem("key", "value");
+```javascript
+// window.localStorage.setItem("key", "value");
+window.localStorage.setItem("firstName", "David");
+localStorage.setItem("lastName", "Martinez");
+
+const person = {
+  fullName: "Lucyna Kushinada",
+  location: "Night City",
+};
+
+localStorage.setItem("user", JSON.stringify(person));
+
+const fruits = ["Pineapple", "Mango", "Pawpaw"];
+
+localStorage.setItem("fruits", JSON.stringify(fruits));
+
+// GET ITEM FROM LOCAL STORAGE
+console.log(localStorage.getItem("firstName"));
+
+// REMOVE ITEM FROM LOCAL STORAGE
+localStorage.removeItem("fruits");
+
+// CLEAR LOCAL STORAGE
+localStorage.clear();
+
+localStorage.setItem("name", "Lucy");
+localStorage.setItem("age", "20");
+
+console.log(localStorage.key(0));
+
+```
