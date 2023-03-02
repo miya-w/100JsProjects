@@ -147,7 +147,7 @@ In a function, in strict mode, this is undefined.
 In an event, this refers to the element that received the event.
 Methods like call(), apply(), and bind() can refer this to any object.
 
-# JavaScript Array
+# JavaScript Array [ ]
 
 An array is a special variable, which can hold more than one value:
 Using an array literal is the easiest way to create a JavaScript Array.
@@ -218,8 +218,48 @@ function myFunction(value) {
 }
 // OutPut : 45,25
 ```
+## Function Parameters and Arguments
 
+- Function parameters are the names listed in the function definition.
+- Function arguments are the real values passed to (and received by) the function.
+- arguments is an Array-like object accessible inside functions that contains the values of the arguments passed to that function.
+```javascript
+// 
+function add(){
+	return 2 + 3
+}
+add()
+// 5
 
+function add(x, y){
+	return x + y
+}
+
+add(2, 3)
+
+// x and y are the parameters while 2 and 3 are the arguments here.
+// A parameter is one of the variables in a function. And when a method is called, the arguments are the data you pass into the method's parameters.When the function is called with add(2, 3) the arguments 2 and 3 are assigned to x and y, respectively. This means that in the function, x will be replaced with 2 and y will be replaced with 3.
+```
+
+```javascript
+function func1(a, b, c) {
+  console.log(arguments[0]);
+  // Expected output: 1
+
+  console.log(arguments[1]);
+  // Expected output: 2
+
+  console.log(arguments[2]);
+  // Expected output: 3
+}
+
+func1(1, 2, 3);
+
+//> 1
+//> 2
+//> 3
+
+```
 
 # Conditionals
 
@@ -363,3 +403,6 @@ setSeconds(); // seconds (0-59)
 setTime(); // milliseconds since 1970)
 ```
 
+## Resources
+- [W3C-JavaScript](https://www.w3schools.com/js/default.asp)
+- [Parameters vs Arguments in JavaScript – What's the Difference?](https://www.freecodecamp.org/news/what-is-the-difference-between-parameters-and-arguments-in-javascript/)
