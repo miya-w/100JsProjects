@@ -14,16 +14,30 @@
         <li>About Us</li>
     </ul>
 
+    <h2>JavaScript Objects</h2>
+
+<p id="demo"></p>
+
+
  <script>
     let menuRemove = document.getElementById('menuRemove');
     menuRemove.removeChild(menuRemove.lastElementChild); 
     //print -Home -Products
- 
 
-
-
-
-
+    // Create an object:
+    const person = {
+    firstName: "Mia",
+    lastName: "Doe",
+    age: 30,
+    eyeColor: "Black",
+    hobby: ["SnowBoarding","Board Game", "Video Game"]
+  };
+  
+  // Display some data from the object:
+  document.getElementById("demo").innerHTML =
+  person.firstName + " is " + person.age + " years old."+ " She is going to "+ person.hobby[0]+" this winter'"
+  
+  ;
 
  </script>   
 </body>

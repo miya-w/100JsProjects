@@ -9,7 +9,7 @@ addToDoButton.addEventListener('click', function(){
     paragraph.classList.add('paragraph-styling');
     paragraph.innerText = inputField.value;
     toDoContainer.appendChild(paragraph);
-    inputField.value = "";
+    inputField.value = " ";
     paragraph.addEventListener('click', function(){
         paragraph.style.textDecoration = "line-through";
     })

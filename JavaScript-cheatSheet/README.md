@@ -70,6 +70,147 @@ parentNode.removechild(nodeToRemove)
     // Home 
     // Products
 ```
+# JavaScript Operators
+```
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+
+### JavaScript Comparison Operators
+
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+### JavaScript Logical Operators
+
+&&	logical and
+||	logical or
+!	logical not
+
+
+```
+# JavaScript Objects { }
+### Objects & Methods
+Real Life Objects, Properties, and Methods
+In real life, a car is an object. A car has properties like weight and color, and methods like start and stop
+img[]()
+
+- Accessing Object Properties
+  You can access object properties in two ways:
+  1. objectName.propertyName
+  2. objectName["propertyName"]
+
+Objects can also have methods. Methods are actions that can be performed on objects.
+Methods are stored in properties as function definitions
+
+```html
+<h2>JavaScript Objects</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+const car = {
+  type:"Fiat", 
+  model:"500", 
+  color:"white",
+  drive: function(){
+    return this.car.type;
+  }
+  };
+
+// Display some data from the object:
+document.getElementById("demo").innerHTML = "The car type is " + car.type + ", the model is "+ car.model+ " and the color is "+ car.color ;
+
+//OutPut: The car type is Fiat, the model is 500 and the color is white
+</script>
+```
+### *** This
+
+# JavaScript Array
+
+An array is a special variable, which can hold more than one value:
+Using an array literal is the easiest way to create a JavaScript Array.
+Syntax:
+```javascript
+const array_name = [item1, item2, ...];   
+```
+Array elements are accessed using their index number:
+```javascript
+Array indexes start with 0:
+[0] is the first array element
+[1] is the second
+[2] is the third ...
+```
+
+### JavaScript Array Methods
+
+```javascript
+// toString() - The JavaScript method toString() converts an array to a string of (comma separated) array values.
+// The join() method also joins all array elements into a string.
+// The pop() method removes the last element from an array: fruits.pop();
+// The push() method adds a new element to an array (at the end) & The push() method returns the new array length:fruits.push("Kiwi");
+// The shift() method removes the first array element and "shifts" all other elements to a lower index.
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:fruits.unshift("Lemon");
+
+<p>The push() method returns the new array length:</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+//js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+document.getElementById("demo1").innerHTML = fruits.push("Kiwi");
+document.getElementById("demo2").innerHTML = fruits;
+
+
+// OutPut: 
+// 5
+// Banana,Orange,Apple,Mango,Kiwi
+
+// Shift 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+document.getElementById("demo2").innerHTML = fruits;
+//OutPut : Orange,Apple,Mango
+document.getElementById("demo3").innerHTML = fruits.shift();
+//OutPut: Banana
+
+```
+## JavaScript Array Iteration
+Array iteration methods operate on every array item.
+```
+// The forEach() method calls a function (a callback function) once for each array element.
+// The map() method creates a new array by performing a function on each array element.
+// The filter() method creates a new array with array elements that pass a test.
+// The more Methods can be find in the W3C school 
+```
+```javascript
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
+
+document.getElementById("demo").innerHTML = over18;
+
+function myFunction(value) {
+  return value > 18;
+}
+// OutPut : 45,25
+```
+
+
+
 # Conditionals
 
 ```javascript
